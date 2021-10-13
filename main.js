@@ -13,3 +13,6 @@ iconaDiChiusura.addEventListener("click", function () {
     /* console.log("click") */
     menuHamburger.style.display = "none"
 })
+//inserisci l immagine mancante
+const immagineLogo = document.querySelector(".header-left")
+immagineLogo.innerHTML = '<img src="http://boolean.careers/images/misc/logo.png" alt="">'
