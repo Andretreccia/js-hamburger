@@ -8,3 +8,8 @@ clickHamburger.addEventListener("click", function () {
 })
 
 //fai scomparire il menu al click dell icona di chiusura
+const iconaDiChiusura = document.querySelector(".close")
+iconaDiChiusura.addEventListener("click", function () {
+    /* console.log("click") */
+    menuHamburger.style.display = "none"
+})
